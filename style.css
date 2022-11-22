@@ -1,0 +1,122 @@
+html, body, main{
+    height: 100%;
+    margin: 0%;
+}
+
+.ContainerGrid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    height: 100%;
+}
+
+.grid1{
+    background-color: darkkhaki;
+    grid-column: 1/5;
+    text-align: center;
+  
+}
+nav{
+    width: 100%;
+}
+ul{  
+   width: 100%;
+    display: flex;
+    list-style-type: none;
+    padding: 0 0;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+li{
+    width: 25%;
+    min-width: 250px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+    border-radius: 1rem;
+    background-color: rgb(143, 247, 83);
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 255, .2);
+ 
+
+}
+li:hover{
+    background-color: azure;
+}
+
+.grid2{
+    background-color: chocolate;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    /*text-align: center;*/
+
+}
+.ideFlex{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+
+   
+}
+
+.grid3{
+    background-color: aquamarine;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+    
+}
+
+
+.flexi{
+    display: inline-flex; /**commImp****avec margin sur child permet 
+    de mettre du space entre les element in child*/
+    flex-direction: row;
+    /*background-color: red;*/
+    font-size: 0; /***tecniqhes pour enlever les whiteSpacing*/
+    height: 100%; /******voir align-content*******/
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-content: center; /***met le child au milieu de la page en hauter avec la l'attrib height****/
+    
+   
+
+
+
+}
+.Titem{
+    width: 100%;
+    /**background-color: rgb(12, 46, 141);**/
+    font-size: large; /*****remet le font enlever pour le whitespacing*/
+}
+
+.Titem h2{
+margin: 0px; /**enleve les margin du titre portofolio*/
+}
+.fitem{
+    width: 184px;
+    min-width: 184px;
+    height: 241px;
+    background-color: rgb(51, 196, 14);
+    margin: 6px; /****voir commImp*****/
+}
+.grid4{ 
+    background-color: chocolate;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    text-align: center;
+
+}
+.grid5{
+    background-color: darkkhaki;
+    grid-column: 1/5;
+    /*grid-row: 4/5;*/
+    text-align: center;
+}
